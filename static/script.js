@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.innerHTML = `
                     <div class="result-header">
                         <h3 class="result-title">${movie.title}</h3>
-                        <span class="result-score">Score: ${movie.score}</span>
+                        <span class="result-score">${movie.score}% Match</span>
                     </div>
                     <p class="result-desc">${movie.description}</p>
                 `;

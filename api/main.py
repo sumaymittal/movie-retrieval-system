@@ -39,11 +39,16 @@ def search_movies(q: str = Query(..., min_length=1), limit: int = Query(10, ge=1
     
     formatted_results = []
     for doc_id, res in results:
+        # Max possible RRF score is ~0.03278 (when ranked #1 in both BM25 and Semantic).
+        # We divide by this max score and multiply by 100 to get a clean 0-100 percentage.
+        raw_score = res.get("rrf", 0)
+        normalized_score = min(100, round((raw_score / 0.032786885) * 100))
+        
         formatted_results.append({
             "id": doc_id,
             "title": res.get("title", ""),
             "description": res.get("description", ""),
-            "score": round(res.get("rrf", 0), 4),
+            "score": normalized_score,
         })
     return {"query": q, "results": formatted_results}
 
