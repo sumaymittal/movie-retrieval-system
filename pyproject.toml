@@ -9,6 +9,7 @@ authors = [
 ]
 dependencies = [
     "coverage>=7.13.2",
+    "fastapi>=0.140.2",
     "google-genai>=1.62.0",
     "nltk==3.9.1",
     "numpy>=2.4.1",
@@ -16,4 +17,5 @@ dependencies = [
     "pytest>=9.0.2",
     "python-dotenv>=1.2.1",
     "sentence-transformers>=5.2.2",
+    "uvicorn>=0.51.0",
 ]
