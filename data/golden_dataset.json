@@ -1,0 +1,104 @@
+{
+  "test_cases": [
+    {
+      "query": "cute british bear marmalade",
+      "relevant_docs": [
+        "Paddington",
+        "The Bear",
+        "The Great Bear",
+        "Care Bears Movie II: A New Generation",
+        "Yogi Bear"
+      ]
+    },
+    {
+      "query": "talking teddy bear comedy",
+      "relevant_docs": [
+        "Ted 2",
+        "The Bear",
+        "Littleman",
+        "Arsenic and Old Lace",
+        "The Care Bears Movie"
+      ]
+    },
+    {
+      "query": "children's animated bear adventure",
+      "relevant_docs": [
+        "Alaska",
+        "The Bear",
+        "Paddington",
+        "Open Season",
+        "Brother Bear"
+      ]
+    },
+    {
+      "query": "friendship transformation magic with bears",
+      "relevant_docs": [
+        "The Care Bears Movie",
+        "Brother Bear",
+        "The Bear",
+        "Care Bears Movie II: A New Generation",
+        "The Jungle Book"
+      ]
+    },
+    {
+      "query": "dinosaur park",
+      "relevant_docs": [
+        "Jurassic Park",
+        "The Crater Lake Monster",
+        "Carnosaur",
+        "Ice Age: Dawn of the Dinosaurs",
+        "Lost River"
+      ]
+    },
+    {
+      "query": "wizards and magic",
+      "relevant_docs": [
+        "Troll",
+        "Harry Potter and the Sorcerer's Stone",
+        "Harry Potter and the Prisoner of Azkaban",
+        "Winx Club: Il segreto del Regno Perduto",
+        "The Sword in the Stone"
+      ]
+    },
+    {
+      "query": "superhero saves the world",
+      "relevant_docs": [
+        "Kick-Ass",
+        "Justice League: The Flashpoint Paradox",
+        "Superman/Batman: Public Enemies",
+        "Batman: The Dark Knight Returns, Part 1",
+        "The Incredibles"
+      ]
+    },
+    {
+      "query": "zombie apocalypse",
+      "relevant_docs": [
+        "Le notti del terrore",
+        "The City of the Dead",
+        "Dance of the Dead",
+        "Return of the Living Dead: Part II",
+        "Shaun of the Dead"
+      ]
+    },
+    {
+      "query": "car racing",
+      "relevant_docs": [
+        "Rush",
+        "Hot Wheels Highway 35 World Race",
+        "The Fast and the Furious",
+        "Need for Speed",
+        "Cars"
+      ]
+    },
+    {
+      "query": "romantic comedy wedding",
+      "relevant_docs": [
+        "They Won't Believe Me",
+        "L'amant",
+        "27 Dresses",
+        "The Accidental Husband",
+        "Runaway Bride"
+      ]
+    }
+  ]
+}

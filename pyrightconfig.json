@@ -1,0 +1,8 @@
+{
+    "typeCheckingMode": "basic",
+    "exclude": [
+        ".venv",
+        "__pycache__",
+        "cache"
+    ]
+}
